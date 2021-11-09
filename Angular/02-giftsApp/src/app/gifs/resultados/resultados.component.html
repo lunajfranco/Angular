@@ -1,1 +1,15 @@
-loamsofamsf asfmosdmgosadmgoasmdgoasmd sdgkisajmdgiasodigjosdig dgidgindgindsignisndgidngs  sdigjsidjgsijdgi
+<div class="row">
+        <div *ngFor="let resultado of Resultados;" 
+        class="col-md- col-sm-4 animate__animated animate__fadeIn">
+            <div class="card">
+                <img [src]="resultado.images.downsized_medium.url" 
+                [alt]="resultado.title"
+                class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">
+                        
+                    </p>
+                </div>
+            </div>
+    </div>
+</div>
