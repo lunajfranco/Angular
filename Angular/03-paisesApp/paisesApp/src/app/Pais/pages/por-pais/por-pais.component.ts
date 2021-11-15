@@ -35,7 +35,8 @@ export class PorPaisComponent {
         console.log('complete')
       }
     );
-    
-    
+  }
+  sugerencias(termino : string){
+    this.hayError = false;
   }
 }
