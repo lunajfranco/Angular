@@ -5,10 +5,12 @@ import { AgregarComponent } from './pages/agregar/agregar.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
+import { HeroeHomeComponent } from './pages/heroe-home/heroe-home.component';
 
 const routes : Routes= [
     {
       path: '',
+      component: HeroeHomeComponent,
       children: [
         {
           path: 'list',
@@ -23,7 +25,7 @@ const routes : Routes= [
           component: AgregarComponent
         },
         {
-          path: 'buscar',
+          path: 'search',
           component: BuscarComponent
         },
         {

@@ -6,6 +6,7 @@ import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HeroeHomeComponent } from './pages/heroe-home/heroe-home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { HeroesRoutingModule } from './heroes-routing.module';
+import { MaterialModule } from '../material/material.module';
 
 
 
@@ -19,6 +20,7 @@ import { HeroesRoutingModule } from './heroes-routing.module';
   ],
   imports: [
     CommonModule,
+    MaterialModule,
     HeroesRoutingModule
   ]
 })
